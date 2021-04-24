@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: */xmlrpc.php
+Disallow: */wp-*.php
+Disallow: */trackback/
+Disallow: *?wptheme=
+Disallow: *?replytocom*
+Disallow: */comment-page-
+Allow: */profil
+Allow: */comment
+
+
+Sitemap: https://oipeirates.pro/sitemap.xml

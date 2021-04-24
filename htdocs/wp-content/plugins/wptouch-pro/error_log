@@ -1,0 +1,2 @@
+[01-Mar-2017 10:10:51 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/xrysoise/public_html/wp-content/plugins/wptouch-pro/wptouch-pro.php on line 81
+[01-Mar-2017 10:15:35 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/xrysoise/public_html/wp-content/plugins/wptouch-pro/wptouch-pro.php on line 81

@@ -1,0 +1,13 @@
+listen 443 ssl http2;
+ssl on;
+ssl_certificate     /etc/letsencrypt/live/oipeirates.tv/fullchain.pem;
+ssl_certificate_key     /etc/letsencrypt/live/oipeirates.tv/privkey.pem;
+ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:AES256+EECDH:AES256+EDH';
+
+
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+    ssl on;
+    ssl_certificate     /etc/nginx/ssl/oipeirates-tv-cert.pem;
+    ssl_certificate_key    /etc/nginx/ssl/yourdomain-tld-key.pem;
+

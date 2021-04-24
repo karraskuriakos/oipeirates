@@ -1,0 +1,556 @@
+/* Open CSS */
+
+/*
+Responsive styles can be applied via the '.smartphone', '.tablet', '.portrait' & '.landscape' classes respectively.
+These classes are automatically applied.
+*/
+
+.body-font {
+	font-weight: 300;
+}
+
+#menu, #search-dropper {
+	display: none;
+}
+
+#menu-toggle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	font-size: 18px;
+	padding: 19px;
+	z-index: 4;
+}
+
+#menu-toggle.touched {
+	border-radius: 40px;
+}
+
+.page-wrapper {
+	padding: 0px;
+}
+
+#header-area,
+#header-title-logo {
+	position: relative;
+	z-index: 3;
+}
+
+.web-app-mode #header-area {
+	padding-top: 16px;
+}
+
+.web-app-mode #menu-toggle {
+	top: 16px;
+}
+
+.home #header-area {
+	display: block;
+	height: auto;
+	padding: 40px 20px 40px;
+	position: relative;
+	text-align: center;
+}
+
+.home #header-title-logo {
+	background-color: #fff;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 20px;
+	position: relative;
+	z-index: 4;
+}
+
+.home #header-title-logo.no-background {
+	background: transparent;
+}
+
+.home #header-area img {
+	max-width: 200px;
+}
+
+.home #header-area h1 {
+	font-size: 24px;
+	height: auto;
+	line-height: 1em;
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.home #header-area p.tagline {
+	color: rgba( 255, 255, 255, .7 );
+	font-size: 30px;
+	margin: 20px 0 -10px;
+	position: relative;
+	z-index: 4;
+}
+
+.header-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	line-height: 1px;
+	height: 100%;
+	top: 0;
+	margin-top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+	-webkit-filter: brightness(.7);
+}
+
+.has-header-image #header-area h1,
+.has-header-image #menu-toggle {
+	color: #fff;
+}
+
+#header-title-logo h1 {
+	font-size: 21px;
+	margin: 0;
+	height: 60px;
+	padding-left: 15px;
+	line-height: 60px;
+	position: relative;
+	z-index: 2;
+}
+
+#content .wptouch-showcase {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#openclosed {
+	color: #f5f0f0;
+	font-size: 19px;
+	text-align: center;
+	padding: 10px;
+}
+
+#openclosed em {
+	font-style: normal;
+	font-weight: 600;
+}
+
+#content {
+	padding: 0;
+}
+
+.post-head-area {
+	background-color: #fcfcfc;
+	padding: 25px;
+	font-size: 2em;
+}
+
+#content .post-head-area h2 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.post-content {
+	min-height: 300px;
+	padding: 0 15px;
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.post-content em {
+	font-weight: 200;
+}
+
+.location .post-head-area {
+	margin-bottom: 0;
+}
+
+.location .footer-action {
+	margin-top: 0;
+}
+
+/* @group Blog */
+
+ol:after,
+ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/* @group Index */
+
+.blog #content {
+	padding: 0;
+}
+
+.blog .post {
+	background-color: #fff;
+	padding: 3px;
+	margin: 12px 12px 30px;
+}
+
+.blog .post:first-child {
+	border: none;
+}
+
+.blog #content .post h2 {
+	margin: 0 0 10px;
+}
+
+.blog .post-meta {
+	opacity: .6;
+}
+
+.blog .post-excerpt {
+	padding-top: 10px;
+}
+
+.post .post-head {
+	display: block;
+	text-align: center;
+	padding: 5%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	position: relative;
+	margin-right: -3px;
+	margin-top: -3px;
+	margin-left: -3px;
+}
+
+.post .post-head:after {
+	content: '';
+	background-color: rgba( 0, 0, 0, 0.3 );
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.post .post-head p {
+	color: rgba( 255, 255, 255, 0.6 );
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 11px;
+	letter-spacing: 1px;
+	margin-top: -40px;
+	padding-bottom: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+.post .post-head h2, .single .post .post-head h2 {
+	display: block;
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+	text-shadow: rgba(0,0,0,.5) 1px 0px 4px;
+	max-width: 500px;
+	line-height: 130%;
+	margin: 50px auto !important;
+	position: relative;
+	z-index: 1;
+}
+
+.post .content {
+	line-height: 150%;
+	padding: 0 15px;
+}
+
+/* @end */
+
+/* @group Single */
+
+.single a#blog-back {
+	color: #fff;
+	display: block;
+	font-size: 80%;
+	text-align: center;
+	opacity: .6;
+	padding: 15px 0 15px;
+	text-transform: uppercase;
+}
+
+.single #content {
+	padding: 0;
+}
+
+.single .content {
+	background-color: #fff;
+	padding: 6px 12px;
+	margin: 12px;
+}
+
+.single .post-date, .single .post-author {
+	opacity: .6;
+}
+
+.single #content p {
+	line-height: 145%;
+	font-size: 95%;
+}
+
+.single #content p:first-child {
+	margin-top: 4px;
+}
+
+.single .nav-controls {
+	margin: 15px 0;
+}
+
+/* @end */
+
+/* @group Comments */
+
+.single #comments {
+	padding: 12px 12px 12px;
+	margin: 10px 10px 20px;
+	border-radius: 4px;
+	background: rgba( 255, 255, 255, 0.9 );
+}
+
+.single #comments h3 {
+	margin-top: 0;
+}
+
+.single #comments label {
+	display: block;
+	text-transform: uppercase;
+}
+
+.comment .comment-avatar {
+	float: left;
+	height: 40px;
+}
+
+.comment .comment-avatar img {
+	height: 40px;
+	margin-right: 15px;
+	width: auto;
+}
+
+.comment .meta {
+	opacity: .6;
+}
+
+.comment .comment-time {
+	font-size: 80%;
+	margin-top: 3px;
+}
+
+.comment .comment-body {
+	line-height: 140%;
+}
+	.comment .comment-body a {
+		word-wrap: break-word;
+	}
+
+.single button#submit {
+	border-radius: 3px !important;
+	text-transform: uppercase;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Front Page Menu */
+
+nav li {
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.1 );
+	padding: 0 0 0 15px;
+	font-size: 1.2em;
+}
+
+nav .menu-tree li img {
+	margin-left: 0;
+	padding-left: 0;
+	top: 14px;
+	margin-right: 5px;
+}
+
+nav .auto i {
+	display: block;
+	margin-top: 5px;
+	padding-left: 0;
+	padding-right: 10px;
+	font-size: 26px;
+	width: 26px;
+	height: 26px;
+	position: relative;
+	float: left;
+	padding-right: 10px;
+	top: 10px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+nav a {
+	text-shadow: none !important;
+	line-height: 25px;
+}
+
+nav a:after {
+	content: "\e80c";
+	font-family: 'wptouch-icons';
+	position: absolute;
+	right: 5%;
+}
+
+nav .has_children a:after {
+	right: 60px;
+}
+
+nav .has_children ul {
+	display: none;
+}
+
+nav .has_children li {
+	padding-left: 15px;
+}
+
+/* @end */
+
+/* @group Footer */
+
+.footer-action {
+	background: rgba( 0, 0, 0, 0.1 );
+	text-align: center;
+	margin-top: 0px;
+	padding: 40px 0;
+}
+
+.footer-action a {
+	color: #fff;
+	border-radius: 10px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 20px;
+}
+
+.footer-action i {
+	margin-right: 8px;
+}
+
+.footer,
+.wptouch-mobile-switch {
+	background: rgba( 0, 0, 0, 0.1 );
+	padding: 0 0 10px;
+}
+
+#switch div {
+	border: none;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#switch .off {
+	background: #fff;
+	box-shadow: none;
+	border-radius: 0 10px 10px 0;
+	padding: 0;
+}
+
+#switch .on {
+	border-radius: 10px 0 0 10px;
+	padding: 0;
+}
+
+.footer p {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.back-to-top {
+	display: none;
+}
+
+/* @end */
+
+/* @group Hours */
+
+dl#hours {
+	display: block;
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 0;
+	padding-top: 30px;
+}
+
+#hours dt {
+	color: rgba( 0, 0, 0, 0.5 );
+	display: inline-block;
+	font-weight: 400;
+	margin-right: 5px;
+	padding-bottom: 10px;
+	text-align: right;
+	width: 49%;
+	width: calc( 50% - 5px );
+}
+
+#hours dd {
+	display: inline-block;
+	font-weight: normal;
+	margin-left: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	width: 49%;
+	width: calc( 50% - 5px );
+}
+
+#hours dd.closed {
+	color: rgba( 0, 0, 0, 0.3 );
+}
+
+p.note {
+	padding: 0 20px 30px;
+	text-align: center;
+}
+
+/* @end */
+
+/* @group Type Adjustments */
+
+.fonts-satisfy_lato #header-title-logo h1 {
+	font-size: 24px;
+}
+
+.fonts-satisfy_lato #openclosed {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.fonts-satisfy_lato nav a {
+	font-size: 1.4em;
+}
+
+.fonts-patua_alegreya #content .post-head-area h2 {
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.social-links-wrap li a {
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.light-links .footer-action a {
+	color: rgba( 0, 0, 0, .7 );
+}
+
+.light-header.home #header-area p.tagline {
+	color: rgba( 0, 0, 0, .6 );
+}
+
+/* @end */

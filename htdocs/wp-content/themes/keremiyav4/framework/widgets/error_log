@@ -1,0 +1,1 @@
+[25-Mar-2015 07:21:53 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/xrysoieu/public_html/wp-content/themes/keremiyav4/framework/widgets/facebook-like-widget.php on line 2

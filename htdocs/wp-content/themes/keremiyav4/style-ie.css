@@ -1,0 +1,9 @@
+#searchform {margin: 0px;padding: 0px;overflow: hidden;display: inline;}
+.duzelt {margin-top:-1px;}	
+#searchbox {float:left;width: 285px;color: #000;font-size: 12px;font-family: Georgia, Times New Roman, Trebuchet MS;font-weight: normal;margin: 8px 10px 10px 10px;padding: 4px 0px 3px 5px;border:0px;display: inline;}
+#searchbox:hover { border:0px;}
+#searchbutton {background:url(images/ara.png);color: #FFFFFF;width:75px;height:28px;font-size: 11px;font-family: Georgia, Times New Roman, Trebuchet MS;margin: 5px 0px 0px 5px;font-weight: bold;border:0px}
+#searchbutton:hover {border:0px}	
+#subbox {background: #ffffff;width: 125px;color: #202020;font-size: 11px;font-family: 'Oswald', arial, serif;font-weight: normal;margin: 9px 0px 0px 15px;float:left;padding: 3px 0px 3px 5px;border:1px solid #ffffff;display: inline;}
+#subbutton {background: #555555 url(images/submit.png);color: #FFFFFF;font-size: 11px;font-family: Georgia, Times New Roman, Trebuchet MS;margin: 4px 0px 0px 17px;padding: 3px 3px 2px 3px;font-weight: bold;height:31px;width:60px;border-top: 0px solid #DDDDDD;border-right: 0px solid #666666;border-left: 0px solid #DDDDDD;border-bottom: 0px solid #666666;}
+.ozet {margin:-23px 0px 0px 2px;}

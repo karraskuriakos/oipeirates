@@ -1,0 +1,361 @@
+.keremiya {
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	width: 800px;
+}
+
+.keremiya_header { width: 780px; overflow: hidden; margin: 0px; height: 150px; background: url('images/header_bg.png') repeat-x;
+	-moz-border-radius-topleft: 24px;
+	-moz-border-radius-topright: 24px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+.keremiya_header img { float: left; }
+.keremiya_header ul {
+	list-style: none;
+	float: right;
+}
+.keremiya_header a { font-size: 11px; color: #898888; text-decoration: none; text-transform: uppercase; }
+
+.keremiya .logo {margin:30px 30px 20px 20px;}
+.keremiya .main_tabs { list-style: none; width: 740px; height: 48px; background: url('images/main_tab.png') repeat-x; border: 1px solid #313844; border-bottom: 0; float: left; margin: 0px 0px 0px 19px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	
+	overflow: hidden;
+}
+.keremiya .main_tabs li { background: url('images/main_tab.png') repeat-x top left; float: left; border-right: 1px solid #313844; }
+.keremiya .main_tabs li a { display: block; text-indent:-9999px; float: left; height: 48px; padding: 1px 12px; }
+.keremiya .main_tabs li a:hover, .keremiya .main_tabs li.selected a{ color: #fff; text-shadow: 1px 1px #4e535b;}
+.keremiya .main_tabs li.selected  {background: url('images/main_tab_active.png') repeat-x;}
+.keremiya .main_tabs li:first-child {
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.keremiya .main_tabs .general { background: url('images/general_icon.png') no-repeat; width:130px;}
+.keremiya .main_tabs .homepage { background: url('images/homepage_icon.png') no-repeat; width:154px;}
+.keremiya .main_tabs .posts { background: url('images/post_icon.png') no-repeat; width:132px;}
+.keremiya .main_tabs .appearence { background: url('images/appearence_icon.png') no-repeat; width:82px;}
+
+
+.keremiya .main_tabs .seo { background: url('images/seo_icon.png') no-repeat; width:116px;}
+
+
+.keremiya_container { background: url('images/pattern.png') repeat top left; width: 778px; border-bottom: 1px solid #cacaca; border-right: 1px solid #cacaca; border-left: 1px solid #cacaca; overflow: hidden; }
+
+.keremiya .sub_tabs { border: 0px; height: 39px; overflow: hidden; }
+.keremiya .sub_tabs ul { list-style: none; overflow: hidden; background: url('images/sub_bg.png') repeat-x top left; height: 38px; width: 778px; margin-left: 0px; margin-top: 0px; }
+.keremiya .sub_tabs li { float: left; }
+.keremiya .sub_tabs li a { background: url('images/sub_sep.png') no-repeat center right; font-size: 13px; color: #525252; float: left; text-decoration: none; height: 36px; padding: 0 20px; line-height: 36px; text-shadow: 1px 1px #c8e352; }
+.keremiya .sub_tabs li.selected a { color: #111111;text-shadow: 1px 1px #c8e352;}
+
+.keremiya .top_button { float: right; margin-top: 15px; margin-right: 20px; margin-bottom: 15px; }
+.keremiya .top_button img { margin-right: 8px; float: left; }
+.keremiya .top_button input { float: left; background: url('images/save_btn.png') no-repeat top left; width: 155px; height: 30px; border: 0; cursor:pointer;}
+.keremiya .top_button input:hover { background-position: bottom left; }
+
+.keremiya .reset_save { margin-bottom: 15px; }
+
+.keremiya .bottom_button { float: right; margin-top: 15px; margin-right: 20px; }
+.keremiya .bottom_button img { margin-right: 8px; float: left; }
+.keremiya .bottom_button input { float: left; background: url('images/save_btn.png') no-repeat top left; width: 155px; height: 30px; border: 0; cursor:pointer;}
+.keremiya .bottom_button input:hover { background-position: bottom left; }
+
+.keremiya .reset_button { float: left; margin-top: 15px; margin-left: 20px;}
+.keremiya .reset_button img { margin-left: 8px; float: left; }
+.keremiya .reset_button input { float: left; background: url('images/reset_btn.png') no-repeat top left; width: 102px; height: 30px; border: 0; cursor:pointer;}
+.keremiya .reset_button input:hover { background-position: bottom left; }
+
+.keremiya .field {
+	background: #ffffff;
+	width: 709px;
+	border: 1px solid #d5d5d5;
+	margin-left: 18px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 15px;
+	overflow: hidden;
+	box-shadow: -1px -2px 5px rgba(213,213,213, 0.3);
+	margin-bottom: 15px;
+}
+
+.keremiya .field label {
+	font-size: 13px;
+	color: #454545;
+	width: 130px;
+	float: left;
+	font-weight: bold;
+}
+
+.keremiya .field .input {
+	float: left;
+	width: 345px;
+}
+
+.keremiya .field .desc {
+	float: left;
+	width:234px;
+	color: #858484;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+.keremiya .field .desc_checkbox {
+	float: left;
+	width:360px;
+	color: #858484;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+.keremiya .field input[type=text] {
+	background: url('images/input_bg.png') repeat-x top left;
+	color: #828282;
+	font-size: 12px;
+	border: 1px solid #d0d0d0;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.keremiya .field textarea {
+	background: url('images/input_bg.png') repeat-x top left;
+	color: #828282;
+	font-size: 12px;
+	border: 1px solid #d0d0d0;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 10px;
+	height: 120px;
+}
+
+.keremiya .upload_button {
+	background: url('images/upload_btn.png') no-repeat top left;
+	width: 78px;
+	height: 30px;
+	float: right;
+	border:0px;
+	text-indent: -10000px;
+	margin-right: 32px;
+}
+
+.keremiya .upload_button:hover {
+	background-position: bottom left;
+}
+
+.keremiya select {width:315px;}
+
+.keremiya .checkbox input { float: left; }
+.keremiya .checkbox label { float: left; width: 300px; margin-left: 5px; font-weight: normal; }
+
+.keremiya .images .input img { padding: 4px; border: 1px solid #dddddd; margin-right: 5px; margin-bottom: 5px; cursor: pointer; }
+.keremiya .images .input img.selected { border: 2px solid #7b7b7b; }
+
+.keremiya .skins .input img { padding: 4px; border: 1px solid #dddddd; margin-right: 5px; margin-bottom: 5px; cursor: pointer; }
+.keremiya .skins .input img.selected { border: 2px solid #7b7b7b; }
+
+.keremiya .colorpicker_wrapper .input { position: relative; }
+.keremiya .colorpicker_wrapper .input input { padding-top: 10px; padding-bottom: 10px; }
+.keremiya .colorSelector { position: absolute; top: 6px; right: 40px; }
+
+/* Color Picker */
+
+.colorpicker {
+	width: 356px;
+	height: 176px;
+	overflow: hidden;
+	position: absolute;
+	background: url(images/colorpicker/colorpicker_background.png);
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+}
+.colorpicker_color {
+	width: 150px;
+	height: 150px;
+	left: 14px;
+	top: 13px;
+	position: absolute;
+	background: #f00;
+	overflow: hidden;
+	cursor: crosshair;
+}
+.colorpicker_color div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(images/colorpicker/colorpicker_overlay.png);
+}
+.colorpicker_color div div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(images/colorpicker/colorpicker_select.gif);
+	margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+	position: absolute;
+	top: 13px;
+	left: 171px;
+	width: 35px;
+	height: 150px;
+	cursor: n-resize;
+}
+.colorpicker_hue div {
+	position: absolute;
+	width: 35px;
+	height: 9px;
+	overflow: hidden;
+	background: url(images/colorpicker/colorpicker_indic.gif) left top;
+	margin: -4px 0 0 0;
+	left: 0px;
+}
+.colorpicker_new_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 213px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker_current_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 283px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker input {
+	background-color: transparent;
+	border: 1px solid transparent;
+	position: absolute;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #898989;
+	top: 4px;
+	right: 11px;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	height: 12px;
+}
+.colorpicker_hex {
+	position: absolute;
+	width: 72px;
+	height: 22px;
+	background: url(images/colorpicker/colorpicker_hex.png) top;
+	left: 212px;
+	top: 142px;
+}
+.colorpicker_hex input {
+	right: 6px;
+}
+.colorpicker_field {
+	height: 22px;
+	width: 62px;
+	background-position: top;
+	position: absolute;
+}
+.colorpicker_field span {
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	cursor: n-resize;
+}
+.colorpicker_rgb_r {
+	background-image: url(images/colorpicker/colorpicker_rgb_r.png);
+	top: 52px;
+	left: 212px;
+}
+.colorpicker_rgb_g {
+	background-image: url(images/colorpicker/colorpicker_rgb_g.png);
+	top: 82px;
+	left: 212px;
+}
+.colorpicker_rgb_b {
+	background-image: url(images/colorpicker/colorpicker_rgb_b.png);
+	top: 112px;
+	left: 212px;
+}
+.colorpicker_hsb_h {
+	background-image: url(images/colorpicker/colorpicker_hsb_h.png);
+	top: 52px;
+	left: 282px;
+}
+.colorpicker_hsb_s {
+	background-image: url(images/colorpicker/colorpicker_hsb_s.png);
+	top: 82px;
+	left: 282px;
+}
+.colorpicker_hsb_b {
+	background-image: url(images/colorpicker/colorpicker_hsb_b.png);
+	top: 112px;
+	left: 282px;
+}
+.colorpicker_submit {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: url(images/colorpicker/colorpicker_submit.png) top;
+	left: 322px;
+	top: 142px;
+	overflow: hidden;
+}
+.colorpicker_focus {
+	background-position: center;
+}
+.colorpicker_hex.colorpicker_focus {
+	background-position: bottom;
+}
+.colorpicker_submit.colorpicker_focus {
+	background-position: bottom;
+}
+.colorpicker_slider {
+	background-position: bottom;
+}
+
+.colorSelector {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    background: url(images/colorpicker/select.png);
+    float:left;
+}
+.colorSelector div {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 21px;
+    height: 19px;
+    background: url(images/colorpicker/select.png) center;
+}
